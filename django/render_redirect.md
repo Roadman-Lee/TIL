@@ -1,4 +1,4 @@
-`render`(*request*, *template_name*, *context=None*, *content_type=None*, *status=None*, *using=None*)
+## `render`(*request*, *template_name*, *context=None*, *content_type=None*, *status=None*, *using=None*)
 
 ### 필수 인수 [¶](https://docs.djangoproject.com/en/4.0/topics/http/shortcuts/#required-arguments)
 
@@ -18,7 +18,7 @@
 
 기본적으로 request 개체를 받아서, template_name 을 받아서 html 을 뿌려주는 역활을 하지만, 선택적 인수를 받아서 받아진 정보와 함께 html에 뿌려줄 수 있다.
 
-`redirect`(*to*, args*, *permanent=False*, *kwargs*)[¶](https://docs.djangoproject.com/en/4.0/topics/http/shortcuts/#django.shortcuts.redirect)
+## `redirect`(*to*, args*, *permanent=False*, *kwargs*)[¶](https://docs.djangoproject.com/en/4.0/topics/http/shortcuts/#django.shortcuts.redirect)
 
 전달된 인수에 대한 적절한 URL을 반환합니다 .
 
