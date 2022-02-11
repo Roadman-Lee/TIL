@@ -12,6 +12,8 @@ Poetry는 Python 프로젝트의 dependency를 선언, 관리, 설치하여 어�
 
 Pip와는 다르게 `.toml` file과 ‘`.lock'`파일을 생성해 dependency를 관리합니다. 생성된 `.toml` 파일에는 프로젝트 dependency의 **메타데이터**가, `.lock` 파일에는 설치된 패키지들의 **version**, **hash**가 저장되어있습니다.
 
+reference : https://chacha95.github.io/2021-03-27-python7/
+
 설치
 
 ```python
