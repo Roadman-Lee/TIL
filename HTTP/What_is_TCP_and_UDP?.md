@@ -1,0 +1,29 @@
+# TCP
+
+전송 제어 프로토콜(Transmission Control Protocol)
+
+- 연결지향 - TCP 3 way handshake
+- 데이터 전달 보증
+- 순서보장
+- 신뢰할 수 있는 프로토콜
+- 현재는 대부분 TCP 사용
+
+### 3 way handshake?
+
+![스크린샷 2022-04-23 오후 8.52.56.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a77ba5a6-f2fe-42b8-890c-bb631b140e04/스크린샷_2022-04-23_오후_8.52.56.png)
+
+### 순서 보장
+
+![스크린샷 2022-04-23 오후 8.53.20.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/557979f1-30b5-4004-86b3-92da15945027/스크린샷_2022-04-23_오후_8.53.20.png)
+
+# UDP
+
+사용자 데이터그램 프로토콜(User Datagram Protocol)
+
+- 하얀 도화지에 비유(기능이 거의 없음)
+- 연결지향 X
+- 데이터 전달 보증 X
+- 순서 보장 X
+- 데이터 전달 및 순서가 보장되지 않지만, 단순하고 빠름
+- IP+PORT+체크섬 의 형태
+- 애플리케이션에서 추가 작업 필요
